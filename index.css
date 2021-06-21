@@ -2,7 +2,7 @@
     background-image: url(images/landing.jpg);
     background-size: cover;
     width: 100%;
-    height: 60vh;
+    height: 100vh;
 }
 h1{
     color: whitesmoke;
@@ -27,11 +27,12 @@ h2{
     left: 50%
 }
 .services{
-    background-image: url(images/services.jpg);
+    background-image: url(images/service.jpg);
     background-size:cover;
     width: 100%;
-    height: 100%;
+    height: 70vh;
     margin: 30px;
+    background-attachment: fixed;
 }
 .crane{
     color: whitesmoke;
@@ -43,6 +44,7 @@ h2{
     text-align: center;
     font-size: larger;
     padding: 30px;
+    margin-left: 80px;
 }
 .rock{
     text-align: center;
@@ -72,7 +74,7 @@ section{
     text-align: center;
 }
 .contact {
-  background-image: url("images/yeye.jpg");
+  background-image: url("./images/c_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -89,3 +91,10 @@ section{
 }
 .row{
     margin: 40px;}
+    #service-icons{
+        margin-left: 280px;
+    }
+    .row col-md-3 img {
+        margin: 20px;
+        width: 400px;
+    }
